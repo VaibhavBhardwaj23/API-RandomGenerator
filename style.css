@@ -1,0 +1,108 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  padding: 6em 1em;
+  font-size: 1.6rem;
+  background-color: hsl(218, 23%, 16%);
+}
+.container ,
+.dad
+{
+    max-width: 550px;
+
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: auto;
+  width: 90%;
+  position: relative;
+  padding: 2em 1em;
+  background-color: hsl(217, 19%, 24%);
+}
+.text {
+  font-weight: 800;
+  color: hsl(150, 100%, 66%);
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.advice,
+.jokes {
+  padding: 0.5em 0;
+  font-weight: 800;
+  color: white;
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+}
+.btn {
+    z-index: 2;
+  padding: 1.4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(150, 100%, 66%);
+margin: -7% auto;
+bottom: -3em;
+position: relative;
+  border: none;
+}
+.border
+{
+    margin: 1em auto;
+}
+.border img {
+  width: 100%;
+}
+.btn:hover
+{
+    box-shadow: 0 0 10px hsl(150, 100%, 66%), 0 0 10px hsl(150, 100%, 66%);
+}
+.hide
+{
+  display: none;
+}
+.btn img {
+  width: 100%;
+  object-fit: cover;
+}
+.button
+{
+  text-align: center;
+  width: 50%;
+  max-width: 350px;
+  margin: 4em auto;
+  color: black;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: hsl(150, 100%, 66%);
+
+}
+
+/* Dad Container */
+@media screen and (min-width:478px) and (max-width:1124px) {
+    .btn
+    {
+        margin: -2% auto;
+    }
+
+}
+
+@media screen and (min-width:1125px) {
+  
+    body
+    {
+        padding: 10em 1em;
+    }
+    .btn
+    {
+        margin: -2% auto;
+    }
+}
